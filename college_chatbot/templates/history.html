@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+    <!-- Importing Pacifico font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa; /* Sky blue background */
+            color: #0d47a1; /* Dark blue text color */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header with gradient and Pacifico font */
+        header {
+            text-align: center;
+            padding: 20px; /* Reduced padding for smaller header */
+            margin: 0;
+            background-color: blue; /* Fallback for browsers that do not support gradients */
+            background-image: linear-gradient(#66ccff, white, #66ccff); /* Sky blue to white gradient */
+            color: #0d47a1; /* Dark blue text */
+            font-family: 'Pacifico', cursive; /* Pacifico font for the header */
+        }
+
+        h1 {
+            font-size: 2.5em; /* Reduced font size for smaller header */
+            margin: 0;
+        }
+
+        /* Main content styles */
+        main {
+            padding: 20px;
+        }
+
+        p {
+            font-size: 1.1em;
+        }
+
+        ul {
+            padding: 20px;
+            list-style-type: none;
+            margin: 0;
+        }
+
+        ul li {
+            background-color: #81d4fa; /* Lighter sky blue for list items */
+            border: 1px solid #0288d1; /* Dark blue border */
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Link styles */
+        footer a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            text-decoration: none;
+            background-color: #0288d1; /* Dark blue button */
+            color: #ffffff; /* White text */
+            padding: 10px;
+            border-radius: 5px;
+            width: 150px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        footer a:hover {
+            background-color: #01579b; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Conversation History</h1>
+    </header>
+    <main>
+        <p>This page will display your past chat history. (This can be extended to save and retrieve chats.)</p>
+        <!-- Example static content -->
+        <ul>
+            <li><strong>User:</strong> What is Flask?</li>
+            <li><strong>Bot:</strong> Flask is a lightweight WSGI web application framework in Python.</li>
+            <li><strong>User:</strong> How do I install Flask?</li>
+            <li><strong>Bot:</strong> You can install Flask using the command: pip install flask.</li>
+        </ul>
+    </main>
+    <footer>
+        <a href="/">Back to Chat</a>
+    </footer>
+</body>
+</html>

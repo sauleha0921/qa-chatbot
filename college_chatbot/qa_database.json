@@ -1,0 +1,34 @@
+[
+    {
+        "question": "What is Flask?",
+        "answer": "Flask is a lightweight WSGI web application framework in Python."
+    },
+    {
+        "question": "What is Python?",
+        "answer": "Python is a high-level programming language."
+    },
+    {
+        "question": "How do I install Flask?",
+        "answer": "You can install Flask using the command: pip install flask."
+    },
+    {
+        "question": "What are the college timings?",
+        "answer": "The college timings are 9 AM to 5 PM."
+    },
+    {
+        "question": "Is there a hostel facility?",
+        "answer": "Yes, we provide hostel facilities for boys and girls."
+    },
+    {
+        "question": "What courses are offered?",
+        "answer": "We offer courses like BCS, BBA, and MBA."
+    },
+    {
+        "question": "Who is the HOD of BCS departement? ",
+        "answer": "Shabana madam"
+    }
+
+	
+	
+]
+
